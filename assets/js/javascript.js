@@ -74,7 +74,7 @@ login.onclick = () => {
   signin.classList.remove("bg-btn");
 };
 sign.onclick = () => {
-  if (email.value == "elnoorweb" && password.value == "12345678") {
+  if (email.value == "yousef" && password.value == "12345678") {
     // window.location.replace("site.html");
     verify_done.classList.add("flex")
     vector.classList.add("none")
@@ -84,7 +84,7 @@ sign.onclick = () => {
     verify_con.classList.add("block")
     verify_re.classList.add("none")
   }
-  else if (email.value != "elnoorweb" && password.value == "12345678") {
+  else if (email.value != "yousef" && password.value == "12345678") {
     verify_done.classList.add("flex")
     correct.classList.add("none")
     verify_done_p.classList.add("none")
@@ -95,7 +95,7 @@ sign.onclick = () => {
     verify_re.classList.add("block")
     document.body.style.overflowY = "hidden";
   }
- else  if (email.value == "elnoorweb" && password.value != "12345678") {
+ else  if (email.value == "yousef" && password.value != "12345678") {
     verify_done.classList.add("flex")
     correct.classList.add("none")
     vector.classList.add("flex")
@@ -106,7 +106,7 @@ sign.onclick = () => {
     verify_re.classList.add("block")
     document.body.style.overflowY = "hidden";
   }
- else  if (email.value != "elnoorweb" && password.value != "12345678") {
+ else  if (email.value != "yousef" && password.value != "12345678") {
     verify_done.classList.add("flex")
     correct.classList.add("none")
     vector.classList.add("flex")
